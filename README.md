@@ -1,6 +1,6 @@
 # Basic Monorepo Demo Using Lerna
 
-This repository demonstrates a basic monorepo setup using Lerna, where packages can be utilized by other packages (components) within a single directory.
+This repository demonstrates a basic monorepo setup using Lerna, where packages can be utilized by other packages (components) within a single rep.
 
 ## Getting Started
 
