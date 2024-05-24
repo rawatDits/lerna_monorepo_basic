@@ -1,0 +1,23 @@
+{
+  "name": "package-b",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Ranjana Rawat <ranjana.rawat@dits.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/package-b.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build":"tsc",
+    "test": "node ./__tests__/package-b.test.js"
+  },
+  "dependencies": {
+    "package-a": "*"
+  }
+}

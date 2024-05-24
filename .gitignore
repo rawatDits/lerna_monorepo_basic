@@ -1,0 +1,13 @@
+# Ignore the root node_modules directory
+/node_modules/
+
+# Ignore the distribution/build directories
+/dist
+/packages/*/dist
+
+# Ignore node_modules in all packages
+/packages/*/node_modules
+
+# Ignore yarn.lock or package-lock.json files if you use npm or yarn
+yarn.lock
+package-lock.json
